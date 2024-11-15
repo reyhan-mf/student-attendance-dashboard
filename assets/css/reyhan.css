@@ -4,6 +4,33 @@
     cursor: pointer;
 }
 
+.divider {
+    height: 1px;
+    background-color: #e0e0e0; /* Light gray color */
+    margin: 1rem 0; /* Adjust the margin as needed */
+    border: none;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    background-color: #f8f9fa; /* Matches the header background color */
+    z-index: 10;
+  }
+  
+
+.scrollable-table {
+    max-height: 450px;
+    overflow-y: auto;
+}
+
+
+.avatar-img-table{
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
 .scrollable-dropdown {
     max-height: 200px;
     /* Set the maximum height you want */
