@@ -1,0 +1,12 @@
+.dropdown-item:hover {
+    background-color: #f1f1f1;
+    /* Change this to your desired hover color */
+    cursor: pointer;
+}
+
+.scrollable-dropdown {
+    max-height: 200px;
+    /* Set the maximum height you want */
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+}
